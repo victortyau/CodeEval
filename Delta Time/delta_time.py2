@@ -1,0 +1,33 @@
+import sys
+import os
+from datetime import datetime
+
+
+def read_file():
+    if len(sys.argv) == 2:
+        if os.path.exists(sys.argv[1]):
+            file = open(sys.argv[1],"r")
+            strings = file.read()
+            file.close()
+            delta_time(strings)
+
+def delta_time(strings):
+    array_lines = strings.split('\n')
+    i = 0
+    while i < len(array_lines):
+        array_time = array_lines[i].split(' ')
+        if len(array_time) == 2:
+            time_a = datetime.strptime(array_time[0],'%H:%M:%S')
+            time_b = datetime.strptime(array_time[1],'%H:%M:%S')
+            if time_a > time_b:
+                time_r = time_a - time_b
+            else:
+                time_r = time_b - time_a
+
+            if len(str(time_r)) == 7:
+                time_r = "0"+str(time_r)
+            print time_r
+        i += 1
+
+
+read_file()
