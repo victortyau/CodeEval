@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 #include <cctype>
 #include<fstream>
 #include<iostream>
@@ -43,7 +44,7 @@ void Main::makeProcess(char array_lines[100][200],int index,int array_length[100
     for( int j =0; j < array_length[i]; j++ ){
       if( array_lines[i][j] == tol[0] || n >= 2 ){
         if(!isspace(array_lines[i][j]) && array_lines[i][j] != tol[0]){
-          array_indexes[z] = (int)array_lines[i][j];
+          array_indexes[z] = atoi(&array_lines[i][j]);
           z++;
         }
         n++;
@@ -58,28 +59,73 @@ void Main::makeProcess(char array_lines[100][200],int index,int array_length[100
       }
     }
     createText(array_strings,array_indexes,x,z);
-    break;
+    memset(array_strings, 0, sizeof array_strings);
+    x =0;
+    y =0;
+    n = 1;
+    z = 1;
   }
 }
 
 void Main::createText(char array_strings[100][80],int array_indexes[100], int x, int z){
 
+  char final_array[100][150];
+  int j = 1;
+  int n = 1;
+  int k = 1;
+  int index = 0;
+  char temp[100];
 
- for( int i =0; i < x; i++){
-    printf("%s \n",array_strings[i]);
- }
+  printf("%d\n",x);
+  printf("%d\n",z);
 
-
-  if(x == z){
-    printf("the same indexes");
-    printf("%d\n",x);
-    printf("%d\n",z);
+  if(x > z){
+    index = x;
+  }
+  else if(x < z){
+    index = z;
   }
   else{
-    printf("the wrong indexes \n");
-    printf("%d\n",x);
-    printf("%d\n",z);
+    index = x;
   }
+
+  for( int i = 1; i <= z; i++ ){
+    printf("%d \n",array_indexes[i]);
+  }
+
+  for( int i = 0; i <= index; i++){
+
+
+    if(array_indexes[k] == 0){
+      strcpy(temp,array_strings[i]);
+    }
+    strcpy(final_array[array_indexes[k]],array_strings[i]);
+    k++;
+    n++;
+  }
+
+  for( int i =1; i < n; i++ ){
+    if(strlen(final_array[i]) > 0){
+      printf("%s",final_array[i]);
+    }
+    else{
+        printf("%s",temp);
+    }
+
+    if( i == n -1 ){
+      printf("\n");
+    }
+    else{
+      printf(" ");
+    }
+
+  }
+
+  j = 1;
+  n = 1;
+  k = 1;
+  strcpy(temp,"");
+
 }
 
 int main(int argc, char* argv[]){
@@ -88,3 +134,15 @@ int main(int argc, char* argv[]){
       n.gotFile(argv[1]);
     }
 }
+
+
+// if(x == z){
+//   printf("the same indexes");
+//   printf("%d\n",x);
+//   printf("%d\n",z);
+// }
+// else{
+//   printf("the wrong indexes \n");
+//   printf("%d\n",x);
+//   printf("%d\n",z);
+// }
