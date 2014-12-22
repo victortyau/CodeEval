@@ -37,15 +37,29 @@ void Main::makeProcess(char array_lines[100][200],int index,int array_length[100
   int y = 0;
   int z = 1;
   int n = 1;
+  char number[10] = "";
   char tol[10] = ";";
   char array_strings[100][80];
   int array_indexes[100];
   for(int i=0; i < index; i++){
     for( int j =0; j < array_length[i]; j++ ){
       if( array_lines[i][j] == tol[0] || n >= 2 ){
+
         if(!isspace(array_lines[i][j]) && array_lines[i][j] != tol[0]){
-          array_indexes[z] = atoi(&array_lines[i][j]);
+            char temp[1];
+            strcpy(temp,&array_lines[i][j]);
+            //temp << (char*)&array_lines[i][j];
+            //printf("%c \n",array_lines[i][j]);
+            printf("%s \n",temp);
+            //strcat(number,temp);
+            //printf("%li\n",strlen(number));
+        }
+        else if(isspace(array_lines[i][j])){
+          array_indexes[z] = atoi(number);
           z++;
+          //printf("nothing to do");
+          strcpy(number,"");
+          //printf("%s \n",number);
         }
         n++;
       }
@@ -58,8 +72,10 @@ void Main::makeProcess(char array_lines[100][200],int index,int array_length[100
         y=0;
       }
     }
-    createText(array_strings,array_indexes,x,z);
-    memset(array_strings, 0, sizeof array_strings);
+
+    printf("\n********************\n");
+    //createText(array_strings,array_indexes,x,z);
+    //memset(array_strings, 0, sizeof array_strings);
     x =0;
     y =0;
     n = 1;
@@ -89,9 +105,11 @@ void Main::createText(char array_strings[100][80],int array_indexes[100], int x,
     index = x;
   }
 
-  for( int i = 1; i <= z; i++ ){
-    printf("%d \n",array_indexes[i]);
-  }
+  // for( int i = 1; i <= z; i++ ){
+  //   printf("%d \n",array_indexes[i]);
+  // }
+
+  printf("%d here \n",index);
 
   for( int i = 0; i <= index; i++){
 
