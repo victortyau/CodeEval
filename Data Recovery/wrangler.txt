@@ -1,0 +1,20 @@
+Mauchly's for computer first of was John high-level 1949, one Short in languages the developed Code, an ever electronic proposed;2 17 20 12 10 8 1 13 7 9 3 6 14 11 16 4 18 15 19
+advanced diagnostics were code it circumstances, and was object its Autocode time 2 was development straight EDSAC which Autocode, noted for a Mercury for as and the for source-language Known from adapted local optimisation;31 28 30 24 6 17 26 19 23 22 13 34 4 7 10 9 3 29 5 20 32 8 12 21 2 18 33 15 27 1 11 14 16
+in also Ferranti the of with conjunction for the Mercury University autocode in 1950s an Brooker the Manchester developed;10 2 8 11 18 15 14 6 7 9 17 5 13 12 4 1 16 19
+programs Autocode ran Mark in 1 Manchester The written from 1952;6 9 5 3 8 4 2 1 7 10
+compiler language, into it convert programming to code language the A machine automatically used a;7 3 13 4 10 2 8 15 12 11 1 14 9 5
+of Mercury for Ferranti developed 1950s the in the an conjunction with Manchester autocode in University the Brooker also;18 9 6 8 3 12 16 10 7 4 14 15 19 5 13 17 11 1
+and in by for second called Mark 1 1954 "Mark autocode was the 1 developed The the was Brooker Autocode";14 12 10 6 2 16 8 9 13 18 3 15 7 19 5 1 17 4 11
+Atlas development, of Atlas Autocode developed contemporary of Manchester the was thread but separate University for A machine 1;8 7 15 17 9 11 2 6 16 13 10 5 3 4 14 12 1 19
+and compiler became in publicly in FLOW-MATIC substantially was The available early 1958 1959 complete;10 3 4 7 5 14 2 12 11 1 6 8 9 15
+"Mark The and for second autocode was the developed Brooker 1 1954 was the called 1 in Autocode" by Mark;18 1 14 6 2 3 15 17 5 11 9 13 4 7 16 19 12 20 10
+Alick developed the Autocode University Manchester, of Glennie At in early the 1950s;6 8 11 9 3 5 4 7 1 10 12 2
+first became at the in purpose IBM high-level was language general developed mid Fortran language '50s, widely used The the and programming;15 13 6 14 8 20 7 18 4 2 19 5 10 3 22 11 16 17 1 9 12
+COBOL, in descendent a the the AIMACO actual major Flow-Matic was design time it direct were and at in since use influence its of only;10 20 17 3 24 7 18 21 4 1 2 8 25 13 16 19 14 23 6 11 22 5 15 9
+until was Rand during for from 1955 It UNIVAC I at Remington developed the the 1959 period;16 2 10 11 4 14 15 1 6 7 8 9 3 12 5 17
+Manchester 1 in ran 1952 Mark from The programs written Autocode;2 4 8 5 11 3 10 1 6 7
+the actual a descendent major of use Flow-Matic in was at influence only it the were its COBOL, time since AIMACO direct in and design;24 21 3 17 4 9 22 1 6 2 23 5 12 13 7 19 15 10 25 11 18 16 20 14
+the in was general Fortran high-level widely and developed language IBM became purpose the at mid programming first language '50s, The used;14 8 4 19 3 18 16 12 5 22 7 13 20 9 6 10 21 15 2 11 1
+expressions understandable mathematical Unlike Code form code, in statements represented machine Short;9 11 8 1 5 12 3 10 6 7 2
+developed Mauchly's Short ever high-level was Code, computer one languages electronic first in John the for proposed an of 1949,;16 2 3 15 13 8 4 20 9 14 19 12 6 1 11 17 5 18 10
+first code University for 1952 be in of language at considered is to compiled Mark programming 1 compiler the was The computer the Manchester and first high-level and the developed;26 3 17 10 9 24 8 18 30 15 22 21 23 27 12 29 13 5 25 6 1 14 16 19 4 2 28 20 11
