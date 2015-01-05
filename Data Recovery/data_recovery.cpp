@@ -9,14 +9,14 @@ using namespace std;
 class Main{
   public:
     void gotFile(char filename[100]);
-    void makeProcess(char array_lines[100][200],int index,int array_length[100]);
+    void makeProcess(char array_lines[100][500],int index,int array_length[100]);
     void createText(char array_strings[100][80],int array_indexes[100], int x, int z);
 };
 
 void Main::gotFile(char filename[100]){
   int i = 0;
   string line;
-  char array_lines[100][200];
+  char array_lines[100][500];
   int array_length[100];
   ifstream fin(filename);
   if(fin.is_open()){
@@ -32,14 +32,18 @@ void Main::gotFile(char filename[100]){
     makeProcess(array_lines,i,array_length);
   }
 }
-void Main::makeProcess(char array_lines[100][200],int index,int array_length[100]){
+
+void Main::makeProcess(char array_lines[100][500],int index,int array_length[100]){
   int x = 0;
   int y = 0;
   int z = 0;
   int n = 1;
+  char number[10] = "";
   char tol[10] = ";";
   char array_strings[100][80];
   int array_indexes[100];
+  string cad;
+  char temp;
   for(int i=0; i < index; i++){
     for( int j =0; j < array_length[i]; j++ ){
       if( array_lines[i][j] == tol[0] || n >= 2 ){
@@ -47,6 +51,7 @@ void Main::makeProcess(char array_lines[100][200],int index,int array_length[100
         char cad;
 
         if(!isspace(array_lines[i][j]) && array_lines[i][j] != tol[0]){
+<<<<<<< HEAD
           data = array_lines[i][j];
           cad = data[0];
           if( array_indexes[z] == 0 ){
@@ -55,6 +60,16 @@ void Main::makeProcess(char array_lines[100][200],int index,int array_length[100
           else{
             array_indexes[z] *= 10;
             array_indexes[z] += atoi(&cad);
+=======
+          cad = array_lines[i][j];
+          temp = cad[0];
+          if(array_indexes[z] == 0){
+            array_indexes[z] = atoi(&temp);
+          }
+          else if( array_indexes[z] > 0 ){
+            array_indexes[z] *= 10;
+            array_indexes[z] += atoi(&temp);
+>>>>>>> 6d4df1354c51953d60bab7ef2d3c5300da09707c
           }
         }
         else{
@@ -82,7 +97,6 @@ void Main::makeProcess(char array_lines[100][200],int index,int array_length[100
 }
 
 void Main::createText(char array_strings[100][80],int array_indexes[100], int x, int z){
-
   char final_array[100][150];
   int j = 1;
   int n = 1;
@@ -101,8 +115,6 @@ void Main::createText(char array_strings[100][80],int array_indexes[100], int x,
   }
 
   for( int i = 0; i <= index; i++){
-
-
     if(array_indexes[k] == 0){
       strcpy(temp,array_strings[i]);
     }
@@ -119,13 +131,12 @@ void Main::createText(char array_strings[100][80],int array_indexes[100], int x,
         printf("%s",temp);
     }
 
-    if( i == n -1 ){
+    if( i == n-1 ){
       printf("\n");
     }
     else{
       printf(" ");
     }
-
   }
 
   j = 1;

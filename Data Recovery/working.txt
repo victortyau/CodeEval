@@ -1,5 +1,11 @@
+programs Manchester The written ran Mark 1952 1 in Autocode from;6 2 1 7 5 3 11 4 8 9
 2000 and was not However, implemented 1998 it until;9 8 3 4 1 5 7 2
 programming first The language;3 2 1
+<<<<<<< HEAD
 programs Manchester The written ran Mark 1952 1 in Autocode from;6 2 1 7 5 3 11 4 8 9
 Mauchly's for computer first of was John high-level 1949, one Short in languages the developed Code, an ever electronic proposed;2 17 20 12 10 8 1 13 7 9 3 6 14 11 16 4 18 15 19
 advanced diagnostics were code it circumstances, and was object its Autocode time 2 was development straight EDSAC which Autocode, noted for a Mercury for as and the for source-language Known from adapted local optimisation;31 28 30 24 6 17 26 19 23 22 13 34 4 7 10 9 3 29 5 20 32 8 12 21 2 18 33 15 27 1 11 14 16
+=======
+equivalent to every translated program into However, had it making slower be the process code machine machine running code much time the than the ran,;23 5 11 7 3 8 1 4 13 15 19 6 22 17 10 24 9 21 25 18 12 16 20 2
+Mark compiler considered high-level 1 1952 in was computer at the first to Manchester the the and for and programming of compiled be is University developed language first code The;12 5 22 28 13 9 8 6 14 15 16 26 23 19 11 25 4 10 20 29 18 27 24 21 17 7 30 2 3
+>>>>>>> 6d4df1354c51953d60bab7ef2d3c5300da09707c
