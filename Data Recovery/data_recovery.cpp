@@ -9,14 +9,14 @@ using namespace std;
 class Main{
   public:
     void gotFile(char filename[100]);
-    void makeProcess(char array_lines[100][200],int index,int array_length[100]);
+    void makeProcess(char array_lines[100][500],int index,int array_length[100]);
     void createText(char array_strings[100][80],int array_indexes[100], int x, int z);
 };
 
 void Main::gotFile(char filename[100]){
   int i = 0;
   string line;
-  char array_lines[100][200];
+  char array_lines[100][500];
   int array_length[100];
   ifstream fin(filename);
   if(fin.is_open()){
@@ -33,7 +33,7 @@ void Main::gotFile(char filename[100]){
   }
 }
 
-void Main::makeProcess(char array_lines[100][200],int index,int array_length[100]){
+void Main::makeProcess(char array_lines[100][500],int index,int array_length[100]){
   int x = 0;
   int y = 0;
   int z = 0;

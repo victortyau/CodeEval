@@ -1,20 +1,20 @@
-equivalent to every translated program into However, had it making slower be the process code machine machine running code much time the than the ran,;23 5 11 7 3 8 1 4 13 15 19 6 22 17 10 24 9 21 25 18 12 16 20 2
-until 1998 and 2000 was it implemented However, not;6 7 8 9 3 2 5 1
-in expressions Code mathematical represented understandable code, Short form statements machine Unlike;10 9 5 8 7 11 3 4 12 6 2
-period I Remington at was 1955 1959 until UNIVAC from developed Rand It for the the during;13 7 9 8 2 15 17 16 6 14 3 10 1 4 5 12
-1954 Brooker called second "Mark Mark was the the and for The was in 1 1 autocode developed Autocode" by;13 11 16 2 18 8 15 17 7 14 6 1 4 12 9 19 3 5 20
 Alick developed the Autocode University Manchester, of Glennie At in early the 1950s;6 8 11 9 3 5 4 7 1 10 12 2
-Z3 for early Konrad developed a computer for to An was be Zuse German between high-level and Plankalkul, programming designed 1945 by language 1943 the;18 15 2 20 14 10 11 9 6 1 12 7 21 17 22 3 24 13 4 8 25 19 5 23
-IBM language developed and widely The programming Fortran became first general in the purpose at was '50s, the mid language high-level used;7 22 5 12 16 1 21 3 13 15 19 8 9 20 6 4 11 14 10 2 18
-1 programs Autocode Mark 1952 Manchester ran from in written The;4 6 9 3 11 2 5 10 8 7
-code University developed Mark and computer was first to compiled the at and the compiler the The language Manchester programming is 1 high-level considered for of 1952 in first be;3 17 7 12 20 14 6 2 23 27 11 15 4 25 5 16 1 30 19 29 21 13 28 22 10 18 9 8 26
-Autocode Manchester, At developed the University in the Alick early Glennie 1950s of;9 5 1 8 11 3 10 2 6 12 7 13
-instructions to languages 1950s a written The first designed the programming in computer to were communicate;8 6 4 16 10 13 1 2 5 15 3 14 11 9 12
-Mark compiler considered high-level 1 1952 in was computer at the first to Manchester the the and for and programming of compiled be is University developed language first code The;12 5 22 28 13 9 8 6 14 15 16 26 23 19 11 25 4 10 20 29 18 27 24 21 17 7 30 2 3
-language convert code machine language, A the a programming it into used automatically compiler to;12 10 15 14 3 1 11 6 2 4 13 5 9 7
-Hartley University devised The 2 the in for Mathematical was Laboratory by version Cambridge 1961 EDSAC of of;10 12 8 1 6 4 17 3 15 7 16 9 2 14 18 5 13
-ran 1952 programs The written 1 from Manchester Autocode Mark in;5 11 6 1 7 4 10 2 9 3
-mathematical expressions statements represented machine Code understandable in form Short Unlike code,;8 9 6 7 2 5 11 10 12 4 1
-At developed University the Autocode Alick of Glennie early the Manchester, in 1950s;1 8 3 2 9 6 4 7 12 11 5 10
-implemented 1998 until not was 2000 it However, and;5 7 6 4 3 9 2 1
-expressions statements Code Short machine mathematical code, Unlike represented in understandable form;9 6 5 4 2 8 3 1 7 10 11
+was for in high-level an developed one languages ever the Mauchly's computer Code, first John 1949, electronic Short proposed of;8 17 6 13 18 16 9 14 15 11 2 20 4 12 1 7 19 3 5
+Known Mercury for optimisation adapted as and object was circumstances, Autocode advanced source-language EDSAC code for a were which from Autocode, time was straight noted for development diagnostics the it its 2 local and;1 12 32 25 14 2 18 23 19 17 13 31 27 3 24 15 8 30 29 11 5 34 7 9 20 21 10 28 33 6 22 4 16
+with Hopper programming an data mathematical team wrote business processing and notation, language she and 1955, uncomfortable were prototype her English implemented and for that customers early a a found specification in;10 1 27 25 5 11 20 21 4 6 13 12 28 17 29 16 9 8 32 19 26 30 18 24 3 7 15 31 22 2 23
+source-language the local straight for adapted were for object noted it 2 Known time Autocode, code as development and diagnostics optimisation Autocode was circumstances, for advanced its and Mercury which EDSAC was a from;27 33 16 9 21 14 30 15 23 20 6 4 1 34 5 24 2 10 18 28 25 13 7 17 32 31 22 26 12 29 3 19 8
+to University was in code the is high-level compiler Mark at the 1952 and for programming the first considered The and first compiled computer Manchester 1 be language developed of;23 17 6 8 3 16 21 28 5 12 15 11 9 20 10 29 25 26 22 1 4 2 27 14 19 13 24 30 7
+customers mathematical data in notation, her implemented business 1955, and processing were language Hopper programming a an with prototype English found for early uncomfortable team wrote and specification and that a she;7 11 5 14 12 19 30 4 16 29 6 8 28 1 27 22 25 10 32 26 2 24 15 9 20 21 13 23 18 3 31
+the the University At Glennie Autocode of early 1950s Manchester, Alick developed in;2 11 3 1 7 9 4 12 13 5 6 8
+high-level the programming German be and was designed between a language An Plankalkul, Zuse for Konrad early to 1943 by computer for developed 1945 Z3;3 16 4 17 7 24 12 8 22 10 5 1 13 21 15 20 2 6 23 19 11 9 14 25
+It until at Rand for period was developed 1955 UNIVAC during Remington from I the the 1959;1 16 8 10 4 13 2 3 15 6 11 9 14 7 5 12
+Autocode the Alick early in At developed of 1950s the Glennie Manchester, University;9 11 6 12 10 1 8 4 13 2 7 5
+1945 high-level language early An German programming by designed the between was for Plankalkul, Zuse computer a developed 1943 and Z3 for be Konrad to;25 3 5 2 1 17 4 19 8 16 22 12 9 13 21 11 10 14 23 24 18 15 7 20
+the translated much code ran, had However, every program the it than to time machine slower the code into process machine equivalent making running be;2 7 18 10 14 4 1 11 3 16 13 20 5 12 24 19 22 25 8 17 9 23 15 21
+was at developed during Remington the from I It Rand for the 1959 period until 1955 UNIVAC;2 8 3 11 9 5 14 7 1 10 4 12 17 13 16 15
+It from for at the I until the 1955 developed UNIVAC was Rand period Remington 1959 during;1 14 4 8 5 7 16 12 15 3 6 2 10 13 9 17
+convert compiler a programming to the it code language used automatically into language, machine A;10 7 6 2 8 11 4 15 12 5 9 13 3 14
+1 University The the first in be the at to Manchester was language programming compiler developed for and considered of is and Mark first compiled code the 1952 high-level computer;13 17 1 16 2 8 24 11 15 23 19 6 30 29 5 7 10 20 22 18 21 4 12 26 27 3 25 9 28
+much it the to code the running process had slower making be time machine translated every code into than program ran, machine the However, equivalent;18 13 16 5 10 2 21 17 4 19 15 6 12 24 7 11 25 8 20 3 14 9 22 1
+not However, implemented and it was until 1998 2000;4 1 5 8 2 3 6 7
+from Autocode written in 1 programs The Mark Manchester 1952 ran;10 9 7 8 4 6 1 3 2 11
