@@ -51,7 +51,6 @@ void Main::makeProcess(char array_lines[100][500],int index,int array_length[100
         char cad;
 
         if(!isspace(array_lines[i][j]) && array_lines[i][j] != tol[0]){
-<<<<<<< HEAD
           data = array_lines[i][j];
           cad = data[0];
           if( array_indexes[z] == 0 ){
@@ -60,17 +59,8 @@ void Main::makeProcess(char array_lines[100][500],int index,int array_length[100
           else{
             array_indexes[z] *= 10;
             array_indexes[z] += atoi(&cad);
-=======
           cad = array_lines[i][j];
           temp = cad[0];
-          if(array_indexes[z] == 0){
-            array_indexes[z] = atoi(&temp);
-          }
-          else if( array_indexes[z] > 0 ){
-            array_indexes[z] *= 10;
-            array_indexes[z] += atoi(&temp);
->>>>>>> 6d4df1354c51953d60bab7ef2d3c5300da09707c
-          }
         }
         else{
           z++;
