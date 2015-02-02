@@ -27,6 +27,8 @@ func getFile(){
 
 func doSlang(lines []string){
 
+    slang_array :=  [8]string{ ", yeah!" , ", this is crazy, I tell ya.", ", can U believe this?",
+                               ", eh?", ", aw yea.", ", yo.", "? No way!", ". Awesome!" }
 
     for i := 0 ; i < len(lines); i++ {
       current_line := strings.Split(lines[i]," ")
