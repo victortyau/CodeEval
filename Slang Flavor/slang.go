@@ -7,7 +7,6 @@ import ( "fmt"
          "regexp"
          )
 
-
 func main(){
   getFile()
 }
@@ -27,36 +26,51 @@ func getFile(){
   }
 }
 
-
 func doSlang(lines []string){
 
     slang_array :=  [8]string{ ", yeah!" , ", this is crazy, I tell ya.", ", can U believe this?",
                                ", eh?", ", aw yea.", ", yo.", "? No way!", ". Awesome!" }
     markexp := regexp.MustCompile(`([\.]|[\?]|[\!]){2,}`)
+    counter := regexp.MustCompile(`[\!]|[\.]|[\?]|[\,]`)
+    var x = 0
     for i := 0 ; i < len(lines); i++ {
+        number := 0
+        stop := 0
+
         if !markexp.MatchString(lines[i]) {
          current_line := strings.Split(lines[i]," ")
-         var x = 0
+
          for j := 0; j < len(current_line); j++ {
-           if strings.Index(current_line[j],".") >= 0 {
-             fmt.Printf(strings.Replace(current_line[j],".",slang_array[x],1)+" ")
-             x++
-           }else if  strings.Index(current_line[j],"?") >= 0 {
-             fmt.Printf(strings.Replace(current_line[j],"?",slang_array[x],1)+" ")
-             x++
-           }else if strings.Index(current_line[j],"!") >= 0 {
-             fmt.Printf(strings.Replace(current_line[j],"?",slang_array[x],1)+" ")
-             x++
-           }else{
-             fmt.Printf(current_line[j]+" ")
+
+
+           if counter.MatchString(current_line[j])  {
+             number++
            }
 
-           if x == len(slang_array) {
-             x = 0
+           if number >= 2 && stop == 0 {
+
+              if strings.Index(current_line[j],".") >= 0  {
+                fmt.Printf(strings.Replace(current_line[j],".",slang_array[x],1)+" ")
+                x++
+              }else if strings.Index(current_line[j],"?") >= 0 {
+                fmt.Printf(strings.Replace(current_line[j],"?",slang_array[x],1)+" ")
+                x++
+              }else if strings.Index(current_line[j],"!") >= 0 {
+                fmt.Printf(strings.Replace(current_line[j],"!",slang_array[x],1)+" ")
+                x++
+              }
+              stop++
+           }else{
+             fmt.Print(current_line[j]+" ")
            }
+
          }
-        }
-        fmt.Println("")
-        break
+         fmt.Println("")
       }
+
+      if x == len(slang_array) {
+        x = 0
+      }
+
+    }
 }
