@@ -1,26 +1,22 @@
 package main
 
-import "fmt"
+import ("fmt"
+         "math/big"
+)
 
 func main(){
   count := 0
   pr := 0
-  i := 1
+  i := 2
   for   {
-    if i== 1 || i == 2 || i == 3 || i == 5 || i == 7 {
-     count += i
-     pr += 1
-    }
-    if i%2!=0 && i%3!=0 && i%4!=0 && i%5!=0 && i%7!=0 {
-     count += i
+    if big.NewInt(int64(i)).ProbablyPrime(20){
+      count += i
       pr += 1
     }
-
-    if pr == 1000{
+    if pr == 1000 {
       break
     }
     i += 1
   }
    fmt.Println(count)
 }
-
