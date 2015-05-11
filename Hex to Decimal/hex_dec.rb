@@ -1,5 +1,4 @@
 class Convert
-  
   def initialize
     @lines = ""
     get_file()
