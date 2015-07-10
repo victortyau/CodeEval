@@ -17,9 +17,14 @@ class SwapElelem
       end
       numbers = array_line[0].split(" ")
       trans = array_line[1].split(",")
-      puts numbers.inspect
-      puts trans.inspect
-
+      trans.each do |row|
+        indexes = row.split("-")
+        temp1 = numbers[indexes[0].to_i]
+        temp2 = numbers[indexes[1].to_i]
+        numbers[indexes[0].to_i] = temp2
+        numbers[indexes[1].to_i] = temp1
+      end
+      puts numbers.join(" ")
     end
   end
 end
