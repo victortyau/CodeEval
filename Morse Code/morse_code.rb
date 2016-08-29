@@ -10,7 +10,7 @@ class CodeMorse
      @lines = IO.readlines(file_name)
     end  
    end
-
+   
    def decode
     morse = { "a" => ".-", "b" => "-...", "c" => "-.-.", "d" => "-..",
 	            "e" => ".", "f" => "..-.", "g" => "--.", "h" => "....",
@@ -23,15 +23,18 @@ class CodeMorse
 	            "6" => "-....","7" => "--...", "8" => "---..", "9" => "----.",
 	            "0" => "-----" }
     
-    puts @lines.inspect
+    #puts @lines.inspect
     
     @lines.each do |line|
-       positions = line.delete("\n").enum_for(:scan, /[\.|\-][ ]{2,}[\.|\-]/).map { Regexp.last_match.begin(0) }
-       puts positions.inspect
-       array_line = line.delete!("\n").split(" ")
+       line.delete!("\n").gsub!(/[ ]{2,}/,' * ')
+       array_line = line.split(" ")
        cad = ""
        array_line.each do |a|
-        cad += morse.key(a.to_s)
+         if a != "*"
+          cad = cad + morse.key(a.to_s)
+         else
+          cad = cad + " "
+         end 
        end
        puts cad.upcase
     end 
