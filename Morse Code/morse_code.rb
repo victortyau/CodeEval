@@ -23,8 +23,6 @@ class CodeMorse
 	            "6" => "-....","7" => "--...", "8" => "---..", "9" => "----.",
 	            "0" => "-----" }
     
-    #puts @lines.inspect
-    
     @lines.each do |line|
        line.delete!("\n").gsub!(/[ ]{2,}/,' * ')
        array_line = line.split(" ")
