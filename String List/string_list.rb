@@ -1,20 +1,3 @@
-require 'set'
-
-# def create_strings chars, n
-#   return [''] if n == 0
-
-#   strings = []
-#   chars.each do |c|
-#     strings += create_strings(chars, n - 1).map { |cs| c + cs }
-#   end
-
-#   strings
-# end
-
-# File.open(ARGV[0]).map{ |line| line.strip.split(',') }.each do |n,s|
-#   puts create_strings(s.chars.to_a.uniq.sort, n.to_i).sort.join(',')
-# end
-
 class StringList
   def initialize
    @lines = ""
@@ -26,21 +9,28 @@ class StringList
    if File.exist?(file_name)
     @lines = File.open(file_name)
    end
-   @lines.map{ |line| line.strip.split(',') }.each do |n,s|
-    puts create_strings(s.chars.to_a.uniq.sort, n.to_i).sort.join(',')
-   end 
   end
 
-  def create_strings(chars, n)
-    if n > 0
-     strings = []
-     chars.each do |c|
-     strings += create_strings(chars, n - 1).map { |cs| c + cs }
-     end
-    else
-     return ""
-    end 
+  def create_strings
+   @lines.each do |line|
+    data = line.delete("\n").split(",")
+    puts create_words(data[1].chars.to_a.uniq.sort,data[0].to_i).sort.join(",") 
+   end
   end
+  
+  def create_words(letter,number)
+    if number > 0
+     strings = []
+     letter.each do |chars|
+       strings += create_words(letter,number -1).map { |cs| chars + cs  }
+     end 
+    else
+     strings = ['']
+    end
+    strings
+  end
+
 end
 
 sl = StringList.new
+sl.create_strings
